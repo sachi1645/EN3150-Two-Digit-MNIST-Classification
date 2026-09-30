@@ -1,0 +1,69 @@
+\contentsline {chapter}{\numberline {1}Dataset Overview: MNIST 2-Digit Dataset}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Overview}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Characteristics of the Dataset}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Image Pre-processing}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Train-Validation-Test Split}{2}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Sample Images}{3}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Dataset Summary}{3}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Custom CNN for Handwritten Digit Classification}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Dataset Loading}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Dataset Pre-Processing}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Train-Validation-Test Split}{4}{section.2.3}%
+\contentsline {section}{\numberline {2.4}CNN Model Architecture}{4}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Model A Architecture}{4}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Model A Architecture Summary}{6}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Justification for Activation Functions}{6}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Why Adam Optimizer is Used?}{6}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Learning Rate Selection}{6}{section.2.7}%
+\contentsline {section}{\numberline {2.8}CNN Model Training}{7}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Model A Training Results}{7}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Model A Learning Curves}{8}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Optimizer Comparison}{9}{section.2.11}%
+\contentsline {subsection}{\numberline {2.11.1}Comparison Metrics}{9}{subsection.2.11.1}%
+\contentsline {subsection}{\numberline {2.11.2}Optimizer Results}{9}{subsection.2.11.2}%
+\contentsline {section}{\numberline {2.12}Impact of Momentum Parameter}{10}{section.2.12}%
+\contentsline {subsection}{\numberline {2.12.1}Comparison of Momentum Behaviour}{10}{subsection.2.12.1}%
+\contentsline {subsection}{\numberline {2.12.2}Key Observations}{10}{subsection.2.12.2}%
+\contentsline {section}{\numberline {2.13}Model Evaluation on Test Dataset}{10}{section.2.13}%
+\contentsline {subsection}{\numberline {2.13.1}Overall Performance Metrics}{11}{subsection.2.13.1}%
+\contentsline {subsection}{\numberline {2.13.2}Confusion Matrix Analysis}{11}{subsection.2.13.2}%
+\contentsline {subsection}{\numberline {2.13.3}Analysis and Insights}{12}{subsection.2.13.3}%
+\contentsline {chapter}{\numberline {3}Resource-Constrained CNN}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Motivation for a Lightweight Model}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Depthwise-Separable Convolution}{13}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Model B Architecture}{13}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Parameter Constraint Verification}{14}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Model A Learning Curves}{15}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Model B Evaluation}{15}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Model B Training Behaviour}{16}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Model B Confusion Matrix}{16}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Model B Analysis}{17}{section.3.9}%
+\contentsline {chapter}{\numberline {4}Comparison with State-of-the-Art Networks (Transfer Learning)}{18}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Selection and Justification of Pre-trained Models}{18}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Model 1: EfficientNet-B0}{18}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Model 2: MobileNetV2}{18}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Fine-Tuning Strategy and Implementation}{18}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Data Preprocessing Pipeline}{18}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Model Adaptation Methodology}{19}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Transfer Learning Approach}{19}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Individual Model Performance Evaluation}{19}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}MobileNetV2 Fine-tuned Model Evaluation}{19}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}EfficientNet-B0 Fine-tuned Model Evaluation}{20}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Performance Comparison: Custom CNN vs. Fine-tuned State-of-the-Art Models}{22}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Point-by-Point Comparative Analysis}{22}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Accuracy}{22}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Memory Footprint}{23}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Computational Cost}{24}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Key Findings and Interpretations}{24}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Strategic Implications}{24}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Conclusion}{25}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Trade-offs, Advantages, and Limitations: Custom Model vs. Pre-trained Model}{25}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Custom CNN Model Analysis}{25}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.2}Pre-trained Model Analysis}{25}{subsection.4.9.2}%
+\contentsline {subsection}{\numberline {4.9.3}Decision Framework: When to Choose Which Approach}{26}{subsection.4.9.3}%
+\contentsline {subsection}{\numberline {4.9.4}Strategic Trade-offs Summary}{26}{subsection.4.9.4}%
+\contentsline {subsection}{\numberline {4.9.5}Conclusion: Balanced Strategy}{27}{subsection.4.9.5}%
+\contentsline {chapter}{\numberline {5}Overall Conclusion}{28}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Appendix}{30}{appendix.A}%
+\contentsline {section}{\numberline {A.1}GitHub URL}{30}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Final Model Comparison}{30}{section.A.2}%

@@ -227,10 +227,10 @@ Faculty of Engineering
 % UNIVERSITY LOGO
 % ------------------------------------------------------------
 
-\IfFileExists{uom_logo.png}{
+\IfFileExists{figures/uom_logo.png}{
     \includegraphics[
         width=0.30\textwidth
-    ]{uom_logo.png}
+    ]{figures/uom_logo.png}
 }{
     \fbox{
         \parbox[c][4cm][c]{0.30\textwidth}{
@@ -423,11 +423,11 @@ validation, and testing subsets.
 \section{Sample Images}
 % ------------------------------------------------------------
 
-Figure~\ref{fig:dataset_samples} shows examples of handwritten
+Figure~\ref{fig:figures/dataset_samples} shows examples of handwritten
 two-digit images from the dataset.
 
 \insertfigure
-    {dataset_samples.png}
+    {figures/dataset_samples.png}
     {0.90}
     {Sample images from the MNIST 2-Digit Dataset.}
     {fig:dataset_samples}
@@ -542,7 +542,7 @@ The final layer produces 100 class scores.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{Model A.png}
+    \includegraphics[width=1\linewidth]{figures/Model A.png}
     \caption{Model A Architecture}
     \label{fig:placeholder}
 \end{figure}
@@ -657,9 +657,9 @@ The final test results are shown in Table~\ref{tab:model_a_results}.
 Trainable Parameters & 560,612 \\
 Model Size & 2.1431 MB \\
 Average Time/Epoch & 52.27 s \\
-Test Accuracy & 93.85\% \\
-Macro Precision & 93.88\% \\
-Macro Recall & 93.75\% \\
+Test Accuracy & 94.06\% \\
+Macro Precision & 93.91\% \\
+Macro Recall & 94.94\% \\
 \bottomrule
 \end{tabular}
 
@@ -670,15 +670,15 @@ Macro Recall & 93.75\% \\
 % ------------------------------------------------------------
 
 \insertfigure
-    {model_a_curves.png}
+    {figures/model_a_curves.png}
     {0.85}
     {Losses of Training and validation curves for Model A.}
-    {fig:model_a_curves}
+    {fig:figures/model_a_curves}
 \insertfigure
-    {model_a_curves_.png}
+    {figures/model_a_curves_.png}
     {0.85}
     {Accuracy Training and validation curves for Model A.}
-    {fig:model_a_curves_}
+    {fig:figures/model_a_curves_}
 
 % ------------------------------------------------------------
 \newpage
@@ -726,9 +726,9 @@ The optimizer comparison produced the following results.
 \textbf{Best Validation Accuracy} &
 \textbf{Final Validation Accuracy} \\
 \midrule
-SGD & 5.82\% & 5.82\% \\
-SGD + Momentum &  21.36\% & 13.39\% \\
-Adam & 8.41\% & 3.28\% \\
+SGD & 4.89\% & 4.90\% \\
+SGD + Momentum &  14.86\% & 5.62\% \\
+Adam & 10.15\% & 7.92\% \\
 \bottomrule
 \end{tabular}
 
@@ -818,13 +818,13 @@ The following metrics were calculated:
 Model A achieved:
 
 \[
-Accuracy=93.85\%
+Accuracy=94.06\%
 \]
 \[
-Precision=93.88\%
+Precision=93.91\%
 \]
 \[
-Recall=93.75\%
+Recall=94.94\%
 \]
 
 These results indicate strong classification performance across
@@ -835,10 +835,10 @@ the 100 classes.
 % ------------------------------------------------------------
 
 \insertfigure
-    {model_a_confusion_matrix.png}
+    {figures/model_a_confusion_matrix.png}
     {0.80}
     {Confusion matrix of Model A on the test dataset.}
-    {fig:model_a_confusion}
+    {fig:figures/model_a_confusion}
 
 % ------------------------------------------------------------
 \subsection{Analysis and Insights}
@@ -913,7 +913,7 @@ The architecture consists of:
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{Model B.png}
+    \includegraphics[width=1\linewidth]{figures/Model B.png}
     \caption{Lightweight Model}
     \label{fig:placeholder}
 \end{figure}
@@ -944,15 +944,15 @@ The model successfully satisfies the required resource constraint.
 % ------------------------------------------------------------
 
 \insertfigure
-    {model_b_curves.png}
+    {figures/model_b_curves.png}
     {0.85}
     {Losses of Training and validation curves for Model B.}
-    {fig:model_b_curves}
+    {fig:figures/model_b_curves}
 \insertfigure
-    {model_b_curves_.png}
+    {figures/model_b_curves_.png}
     {0.85}
     {Accuracy Training and validation curves for Model B.}
-    {fig:model_b_curves_}
+    {fig:figures/model_b_curves_}
     
 % ------------------------------------------------------------
 \section{Model B Evaluation}
@@ -972,9 +972,9 @@ The final Model B results are shown below.
 Trainable Parameters & 9,741 \\
 Model Size & 0.0466 MB \\
 Average Time/Epoch & 50.69 s \\
-Test Accuracy & 49.23\% \\
-Macro Precision & 60.06\% \\
-Macro Recall & 49.55\% \\
+Test Accuracy & 62.64\% \\
+Macro Precision & 51.69\% \\
+Macro Recall & 47.87\% \\
 \bottomrule
 \end{tabular}
 
@@ -999,10 +999,10 @@ generalization.
 % ------------------------------------------------------------
 
 \insertfigure
-    {model_b_confusion_matrix.png}
+    {figures/model_b_confusion_matrix.png}
     {0.80}
     {Confusion matrix of Model B on the test dataset.}
-    {fig:model_b_confusion}
+    {fig:figures/model_b_confusion}
 
 % ------------------------------------------------------------
 \section{Model B Analysis}
@@ -1148,9 +1148,9 @@ The final MobileNetV2 results are:
 Trainable Parameters & 2,351,972 \\
 Model Size & 9.2100 MB \\
 Average Time/Epoch & 99.50 s \\
-Test Accuracy & 96.79\% \\
-Macro Precision & 96.63\% \\
-Macro Recall & 96.88\% \\
+Test Accuracy & 97.14\% \\
+Macro Precision & 97.04\% \\
+Macro Recall & 97.56\% \\
 \bottomrule
 \end{tabular}
 
@@ -1160,15 +1160,15 @@ MobileNetV2 achieved higher accuracy than both custom CNN
 architectures.
 
 \insertfigure
-    {MobileNetV2.png}
+    {figures/MobileNetV2.png}
     {0.85}
     {Losses of Training and validation curves for MobileNetV2.}
-    {fig:MobileNetV2}
+    {fig:figures/MobileNetV2}
 \insertfigure
-    {MobileNetV2_.png}
+    {figures/MobileNetV2_.png}
     {0.85}
     {Accuracy of Training and validation curves for MobileNetV2.}
-    {fig:MobileNetV2_}
+    {fig:figures/MobileNetV2_}
 % ------------------------------------------------------------
 \subsection{EfficientNet-B0 Fine-tuned Model Evaluation}
 % ------------------------------------------------------------
@@ -1187,9 +1187,9 @@ The final EfficientNet-B0 results are:
 Trainable Parameters & 4,135,648 \\
 Model Size & 16.0674 MB \\
 Average Time/Epoch & 89.48 s \\
-Test Accuracy & 97.47\% \\
-Macro Precision & 97.31\% \\
-Macro Recall & 97.61\% \\
+Test Accuracy & 97.82\% \\
+Macro Precision & 97.60\% \\
+Macro Recall & 98.10\% \\
 \bottomrule
 \end{tabular}
 
@@ -1199,15 +1199,15 @@ EfficientNet-B0 achieved the highest test accuracy among the
 four evaluated models.
 
 \insertfigure
-    {EfficientNet-B0.png}
+    {figures/EfficientNet-B0.png}
     {0.85}
     {Losses of Training and validation curves forEfficientNet-B0.}
-    {fig:EfficientNet-B0}
+    {fig:figures/EfficientNet-B0}
 \insertfigure
-    {EfficientNet-B0_.png}
+    {figures/EfficientNet-B0_.png}
     {0.85}
     {Accuracy of Training and validation curves for EfficientNet-B0.}
-    {fig:EfficientNet-B0_}
+    {fig:figures/EfficientNet-B0_}
 % ------------------------------------------------------------
 \section{Performance Comparison: Custom CNN vs. Fine-tuned
 State-of-the-Art Models}
@@ -1245,13 +1245,13 @@ Model A
 &
 2.1431
 &
-46.62 s
+77.48 s
 &
-94.35\%
+94.06\%
 &
-94.16\%
+93.91\%
 &
-94.35\%
+94.94\%
 \\
 
 Model B
@@ -1260,13 +1260,13 @@ Model B
 &
 0.0466
 &
-50.69 s
+69.69 s
 &
-64.97\%
+62.64\%
 &
-73.53\%
+51.69\%
 &
-65.87\%
+47.87\%
 \\
 
 MobileNetV2
@@ -1275,13 +1275,13 @@ MobileNetV2
 &
 9.2100
 &
-99.50 s
+101.95 s
 &
-96.79\%
+97.14\%
 &
-96.63\%
+97.04\%
 &
-96.88\%
+97.56\%
 \\
 
 EfficientNet-B0
@@ -1290,13 +1290,13 @@ EfficientNet-B0
 &
 16.0674
 &
-89.48 s
+118.78 s
 &
-97.47\%
+97.82\%
 &
-97.31\%
+97.60\%
 &
-97.61\%
+98.10\%
 \\
 
 \bottomrule
@@ -1314,25 +1314,25 @@ EfficientNet-B0
 EfficientNet-B0 achieved the highest test accuracy:
 
 \[
-97.47\%
+97.82\%
 \]
 
 MobileNetV2 achieved:
 
 \[
-96.79\%
+97.14\%
 \]
 
 Model A achieved:
 
 \[
-94.35\%
+94.06\%
 \]
 
 Model B achieved:
 
 \[
-64.97\%
+62.82\%
 \]
 
 Therefore, according to accuracy:
@@ -1348,7 +1348,7 @@ Therefore, according to accuracy:
 \]
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{accuracy_vs_model.png}
+    \includegraphics[width=1\linewidth]{figures/accuracy_vs_model.png}
     \caption{Accuracy vs Model}
     \label{fig:placeholder}
 \end{figure}
@@ -1378,13 +1378,13 @@ Model A has the shortest average training time per epoch among
 the four models:
 
 \[
-46.62\text{ seconds}
+77.48\text{ seconds}
 \]
 
 Model B takes:
 
 \[
-50.69\text{ seconds}
+69.69\text{ seconds}
 \]
 
 Despite having substantially fewer parameters, Model B is not
@@ -1578,7 +1578,7 @@ design space, while EfficientNet-B0 provides the highest accuracy.
 
 Model A provides a practical compromise.
 
-It achieved 94.35\% accuracy with only 2.1431 MB of model storage.
+It achieved 94.06\% accuracy with only 2.1431 MB of model storage.
 
 \textbf{Parameter Count vs. Runtime}
 
@@ -1736,7 +1736,7 @@ files are available in the following GitHub repository:
 
 \begin{center}
 
-\url{https://github.com/YOUR-USERNAME/YOUR-REPOSITORY}
+\url{https://github.com/sachi1645/EN3150-Two-Digit-MNIST-Classification}
 
 \end{center}
 
@@ -1771,9 +1771,9 @@ Model A
 &
 2.1431 MB
 &
-46.62 s
+77.48 s
 &
-94.35\%
+94.06\%
 \\
 
 Model B
@@ -1782,9 +1782,9 @@ Model B
 &
 0.0466 MB
 &
-50.69 s
+69.69 s
 &
-64.97\%
+62.64\%
 \\
 
 MobileNetV2
@@ -1793,9 +1793,9 @@ MobileNetV2
 &
 9.2100 MB
 &
-99.50 s
+101.95 s
 &
-96.79\%
+97.14\%
 \\
 
 EfficientNet-B0
@@ -1804,9 +1804,9 @@ EfficientNet-B0
 &
 16.0674 MB
 &
-89.48 s
+118.78 s
 &
-97.47\%
+97.82\%
 \\
 
 \bottomrule
