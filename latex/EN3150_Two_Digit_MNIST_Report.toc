@@ -34,7 +34,7 @@
 \contentsline {section}{\numberline {3.3}Model B Architecture}{13}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Parameter Constraint Verification}{14}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Model B Learning Curves}{15}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Model B Evaluation}{16}{section.3.6}%
+\contentsline {section}{\numberline {3.6}Model B Evaluation}{15}{section.3.6}%
 \contentsline {section}{\numberline {3.7}Model B Training Behaviour}{16}{section.3.7}%
 \contentsline {section}{\numberline {3.8}Model B Confusion Matrix}{17}{section.3.8}%
 \contentsline {section}{\numberline {3.9}Model B Analysis}{17}{section.3.9}%
@@ -55,7 +55,7 @@
 \contentsline {subsection}{\numberline {4.5.2}Memory Footprint}{23}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}Computational Cost}{24}{subsection.4.5.3}%
 \contentsline {section}{\numberline {4.6}Key Findings and Interpretations}{24}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Strategic Implications}{25}{section.4.7}%
+\contentsline {section}{\numberline {4.7}Strategic Implications}{24}{section.4.7}%
 \contentsline {section}{\numberline {4.8}Conclusion}{25}{section.4.8}%
 \contentsline {section}{\numberline {4.9}Trade-offs, Advantages, and Limitations: Custom Model vs. Pre-trained Model}{25}{section.4.9}%
 \contentsline {subsection}{\numberline {4.9.1}Custom CNN Model Analysis}{25}{subsection.4.9.1}%

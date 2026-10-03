@@ -252,8 +252,14 @@ INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-OUTPUT EN3150_Two_Digit_MNIST_Report.out
+INPUT .\EN3150_Two_Digit_MNIST_Report.out
+INPUT .\EN3150_Two_Digit_MNIST_Report.out
+INPUT EN3150_Two_Digit_MNIST_Report.out
+INPUT EN3150_Two_Digit_MNIST_Report.out
 OUTPUT EN3150_Two_Digit_MNIST_Report.pdf
+INPUT .\EN3150_Two_Digit_MNIST_Report.out
+INPUT .\EN3150_Two_Digit_MNIST_Report.out
+OUTPUT EN3150_Two_Digit_MNIST_Report.out
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
@@ -292,6 +298,9 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\dilha\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT .\EN3150_Two_Digit_MNIST_Report.toc
+INPUT .\EN3150_Two_Digit_MNIST_Report.toc
+INPUT EN3150_Two_Digit_MNIST_Report.toc
 OUTPUT EN3150_Two_Digit_MNIST_Report.toc
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
