@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.23)  3 OCT 2026 10:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.23)  3 OCT 2026 10:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -634,14 +634,7 @@ Package hyperref Info: Option `colorlinks' set `false' on input line 76.
  (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count353
-) (EN3150_Two_Digit_MNIST_Report.aux
-
-LaTeX Warning: Label `fig:placeholder' multiply defined.
-
-
-LaTeX Warning: Label `fig:placeholder' multiply defined.
-
-)
+) (EN3150_Two_Digit_MNIST_Report.aux)
 \openout1 = `EN3150_Two_Digit_MNIST_Report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 198.
@@ -720,11 +713,10 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 198.
- (EN3150_Two_Digit_MNIST_Report.out) (EN3150_Two_Digit_MNIST_Report.out)
 \@outlinefile=\write4
 \openout4 = `EN3150_Two_Digit_MNIST_Report.out'.
 
-<figures/uom_logo.png, id=282, 301.125pt x 301.125pt>
+<figures/uom_logo.png, id=6, 301.125pt x 301.125pt>
 File: figures/uom_logo.png Graphic file (type png)
 <use figures/uom_logo.png>
 Package pdftex.def Info: figures/uom_logo.png  used on input line 241.
@@ -738,11 +730,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 283.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/dilha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figures/uom_logo.png>] (EN3150_Two_Digit_MNIST_Report.toc [1] [2])
+{C:/Users/dilha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figures/uom_logo.png>]
+No file EN3150_Two_Digit_MNIST_Report.toc.
 \tf@toc=\write5
 \openout5 = `EN3150_Two_Digit_MNIST_Report.toc'.
 
- [3]
+[1]
 Chapter 1.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
@@ -753,138 +746,570 @@ l.381 \newpage
 
 
 ] [2]
-<figures/dataset_samples.png, id=392, 860.013pt x 580.3281pt>
+
+LaTeX Warning: Reference `fig:dataset-samples' on page 3 undefined on input line 427.
+
+
+LaTeX Warning: Reference `fig:figures/dataset_samples' on page 3 undefined on input line 429.
+
+<figures/dataset_samples.png, id=41, 860.013pt x 580.3281pt>
 File: figures/dataset_samples.png Graphic file (type png)
 <use figures/dataset_samples.png>
-Package pdftex.def Info: figures/dataset_samples.png  used on input line 433.
+Package pdftex.def Info: figures/dataset_samples.png  used on input line 437.
 (pdftex.def)             Requested size: 407.66833pt x 275.09198pt.
- [3 <./figures/dataset_samples.png>]
+[3 <./figures/dataset_samples.png>]
 Chapter 2.
 [4
 
 ]
-<figures/Model A.png, id=408, 1780.6525pt x 890.32625pt>
+<figures/Model A.png, id=64, 1780.6525pt x 890.32625pt>
 File: figures/Model A.png Graphic file (type png)
 <use figures/Model A.png>
-Package pdftex.def Info: figures/Model A.png  used on input line 545.
+Package pdftex.def Info: figures/Model A.png  used on input line 549.
 (pdftex.def)             Requested size: 452.9679pt x 226.47998pt.
  [5 <./figures/Model A.png (PNG copy)>] [6]
-<figures/model_a_curves.png, id=432, 570.933pt x 354.123pt>
+
+LaTeX Warning: Reference `tab:model-a-results' on page 7 undefined on input line 650.
+
+<figures/model_a_curves.png, id=92, 570.933pt x 354.123pt>
 File: figures/model_a_curves.png Graphic file (type png)
 <use figures/model_a_curves.png>
-Package pdftex.def Info: figures/model_a_curves.png  used on input line 676.
+Package pdftex.def Info: figures/model_a_curves.png  used on input line 684.
 (pdftex.def)             Requested size: 385.02547pt x 238.82277pt.
-<figures/model_a_curves_.png, id=433, 570.933pt x 354.123pt>
+[7]
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:687: Missing $ inserted.
+<inserted text> 
+                $
+l.687     {fig:figures/model_
+                             a_curves}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:687: Double subscript.
+l.687     {fig:figures/model_a_
+                               curves}
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:687: Extra }, or forgotten $.
+l.687     {fig:figures/model_a_curves}
+                                      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+<figures/model_a_curves_.png, id=100, 570.933pt x 354.123pt>
 File: figures/model_a_curves_.png Graphic file (type png)
 <use figures/model_a_curves_.png>
-Package pdftex.def Info: figures/model_a_curves_.png  used on input line 681.
+Package pdftex.def Info: figures/model_a_curves_.png  used on input line 693.
 (pdftex.def)             Requested size: 385.02547pt x 238.82277pt.
- [7] [8 <./figures/model_a_curves.png> <./figures/model_a_curves_.png>] [9] [10]
-<figures/model_a_confusion_matrix.png, id=463, 670.6656pt x 643.203pt>
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:693: Missing $ inserted.
+<inserted text> 
+                $
+l.693 <
+       <<<<<< HEAD
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:693: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.693 <
+       <<<<<< HEAD
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:693: Undefined control sequence.
+\endfigure ...box \columnwidth \fi \box \@currbox 
+                                                  \vskip \intextsep \relax 
+l.693 <
+       <<<<<< HEAD
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:693: Missing number, treated as zero.
+<to be read again> 
+                   \vskip 
+l.693 <
+       <<<<<< HEAD
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:693: LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.693 <
+       <<<<<< HEAD
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:693: Missing } inserted.
+<inserted text> 
+                }
+l.693 <
+       <<<<<< HEAD
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:693: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.693 <
+       <<<<<< HEAD
+Things are pretty mixed up, but I think the worst is over.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:696: Missing $ inserted.
+<inserted text> 
+                $
+l.696     {fig:figures/model_
+                             a_curves_}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:696: Double subscript.
+l.696     {fig:figures/model_a_
+                               curves_}
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:696: Missing { inserted.
+<to be read again> 
+                   }
+l.696     {fig:figures/model_a_curves_}
+                                       
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:698: Missing $ inserted.
+<inserted text> 
+                $
+l.698 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (3.50107pt too wide) in paragraph at lines 693--698
+[]\OT1/cmr/m/n/12 <<<<<< HEAD fig:figures/model-a-curves- ======= fig:figures/model$[][]\OML/cmm/m/it/12 urves[] >>>>>>>
+ []
+
+[8 <./figures/model_a_curves.png>] [9] [10]
+<figures/model_a_confusion_matrix.png, id=130, 670.6656pt x 643.203pt>
 File: figures/model_a_confusion_matrix.png Graphic file (type png)
 <use figures/model_a_confusion_matrix.png>
-Package pdftex.def Info: figures/model_a_confusion_matrix.png  used on input line 838.
+Package pdftex.def Info: figures/model_a_confusion_matrix.png  used on input line 854.
 (pdftex.def)             Requested size: 362.37569pt x 347.54036pt.
- [11 <./figures/model_a_confusion_matrix.png>] [12]
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:857: Missing $ inserted.
+<inserted text> 
+                $
+l.857     {fig:figures/model_
+                             a_confusion}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:857: Double subscript.
+l.857     {fig:figures/model_a_
+                               confusion}
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:857: Extra }, or forgotten $.
+l.857     {fig:figures/model_a_confusion}
+                                         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:859: Missing $ inserted.
+<inserted text> 
+                $
+l.859 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (34.30498pt too wide) in paragraph at lines 854--859
+\OT1/cmr/m/n/12 <<<<<< HEAD fig:figures/model-a-confusion ======= fig:figures/model$[][]\OML/cmm/m/it/12 onfusion >>>>>>>
+ []
+
+[11 <./figures/model_a_confusion_matrix.png>] [12]
 Chapter 3.
-<figures/Model B.png, id=474, 1780.6525pt x 890.32625pt>
+<figures/Model B.png, id=145, 1780.6525pt x 890.32625pt>
 File: figures/Model B.png Graphic file (type png)
 <use figures/Model B.png>
-Package pdftex.def Info: figures/Model B.png  used on input line 913.
+Package pdftex.def Info: figures/Model B.png  used on input line 933.
 (pdftex.def)             Requested size: 452.9679pt x 226.47998pt.
 [13
 
 ]
-<figures/model_b_curves.png, id=489, 570.933pt x 354.123pt>
+<figures/model_b_curves.png, id=164, 570.933pt x 354.123pt>
 File: figures/model_b_curves.png Graphic file (type png)
 <use figures/model_b_curves.png>
-Package pdftex.def Info: figures/model_b_curves.png  used on input line 947.
+Package pdftex.def Info: figures/model_b_curves.png  used on input line 967.
 (pdftex.def)             Requested size: 385.02547pt x 238.82277pt.
-<figures/model_b_curves_.png, id=490, 570.933pt x 354.123pt>
+ [14 <./figures/Model B.png (PNG copy)>]
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:970: Missing $ inserted.
+<inserted text> 
+                $
+l.970     {fig:figures/model_
+                             b_curves}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:970: Double subscript.
+l.970     {fig:figures/model_b_
+                               curves}
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:970: Extra }, or forgotten $.
+l.970     {fig:figures/model_b_curves}
+                                      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+<figures/model_b_curves_.png, id=171, 570.933pt x 354.123pt>
 File: figures/model_b_curves_.png Graphic file (type png)
 <use figures/model_b_curves_.png>
-Package pdftex.def Info: figures/model_b_curves_.png  used on input line 952.
+Package pdftex.def Info: figures/model_b_curves_.png  used on input line 976.
 (pdftex.def)             Requested size: 385.02547pt x 238.82277pt.
- [14 <./figures/Model B.png (PNG copy)>] [15 <./figures/model_b_curves.png> <./figures/model_b_curves_.png>]
-<figures/model_b_confusion_matrix.png, id=505, 670.6656pt x 643.203pt>
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:976: Missing $ inserted.
+<inserted text> 
+                $
+l.976 <
+       <<<<<< HEAD
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:976: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.976 <
+       <<<<<< HEAD
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:976: Undefined control sequence.
+\endfigure ...box \columnwidth \fi \box \@currbox 
+                                                  \vskip \intextsep \relax 
+l.976 <
+       <<<<<< HEAD
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:976: Missing number, treated as zero.
+<to be read again> 
+                   \vskip 
+l.976 <
+       <<<<<< HEAD
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:976: LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.976 <
+       <<<<<< HEAD
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:976: Missing } inserted.
+<inserted text> 
+                }
+l.976 <
+       <<<<<< HEAD
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:976: Missing } inserted.
+<inserted text> 
+                }
+l.976 <
+       <<<<<< HEAD
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:976: Missing } inserted.
+<inserted text> 
+                }
+l.976 <
+       <<<<<< HEAD
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:976: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.976 <
+       <<<<<< HEAD
+Things are pretty mixed up, but I think the worst is over.
+
+[15 <./figures/model_b_curves.png>]
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:980: Missing $ inserted.
+<inserted text> 
+                $
+l.980     {fig:figures/model_
+                             b_curves_}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:980: Double subscript.
+l.980     {fig:figures/model_b_
+                               curves_}
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:980: Missing { inserted.
+<to be read again> 
+                   }
+l.980     {fig:figures/model_b_curves_}
+                                       
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:981: Missing $ inserted.
+<inserted text> 
+                $
+l.981 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+<figures/model_b_confusion_matrix.png, id=179, 670.6656pt x 643.203pt>
 File: figures/model_b_confusion_matrix.png Graphic file (type png)
 <use figures/model_b_confusion_matrix.png>
-Package pdftex.def Info: figures/model_b_confusion_matrix.png  used on input line 1003.
+Package pdftex.def Info: figures/model_b_confusion_matrix.png  used on input line 1036.
 (pdftex.def)             Requested size: 362.37569pt x 347.54036pt.
- [16] [17 <./figures/model_b_confusion_matrix.png>]
+[16]
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:1039: Missing $ inserted.
+<inserted text> 
+                $
+l.1039     {fig:figures/model_
+                              b_confusion}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:1039: Double subscript.
+l.1039     {fig:figures/model_b_
+                                confusion}
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:1039: Extra }, or forgotten $.
+l.1039     {fig:figures/model_b_confusion}
+                                          
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:1041: Missing $ inserted.
+<inserted text> 
+                $
+l.1041 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (34.07904pt too wide) in paragraph at lines 1036--1041
+\OT1/cmr/m/n/12 <<<<<< HEAD fig:figures/model-b-confusion ======= fig:figures/model$[][]\OML/cmm/m/it/12 onfusion >>>>>>>
+ []
+
+[17 <./figures/model_b_confusion_matrix.png>]
 Chapter 4.
 
-Overfull \hbox (11.73589pt too wide) in paragraph at lines 1031--1031
+Overfull \hbox (11.73589pt too wide) in paragraph at lines 1068--1068
 |[]\OT1/cmr/bx/n/17.28 Comparison with State-of-the-Art Net-works (Trans-
  []
 
 [18
 
 ]
-<figures/MobileNetV2.png, id=523, 570.933pt x 354.123pt>
+<figures/MobileNetV2.png, id=208, 570.933pt x 354.123pt>
 File: figures/MobileNetV2.png Graphic file (type png)
 <use figures/MobileNetV2.png>
-Package pdftex.def Info: figures/MobileNetV2.png  used on input line 1164.
+Package pdftex.def Info: figures/MobileNetV2.png  used on input line 1205.
 (pdftex.def)             Requested size: 385.02547pt x 238.82277pt.
-<figures/MobileNetV2_.png, id=524, 570.933pt x 354.123pt>
+<figures/MobileNetV2_.png, id=209, 570.933pt x 354.123pt>
 File: figures/MobileNetV2_.png Graphic file (type png)
 <use figures/MobileNetV2_.png>
-Package pdftex.def Info: figures/MobileNetV2_.png  used on input line 1169.
+Package pdftex.def Info: figures/MobileNetV2_.png  used on input line 1210.
 (pdftex.def)             Requested size: 385.02547pt x 238.82277pt.
- [19] [20 <./figures/MobileNetV2.png> <./figures/MobileNetV2_.png>]
-<figures/EfficientNet-B0.png, id=538, 570.933pt x 354.123pt>
+ [19]
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:1213: Missing $ inserted.
+<inserted text> 
+                $
+l.1213     {fig:figures/MobileNetV2_
+                                    }
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:1213: Missing { inserted.
+<to be read again> 
+                   }
+l.1213     {fig:figures/MobileNetV2_}
+                                     
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:1216: Missing $ inserted.
+<inserted text> 
+                $
+l.1216 ...cientNet-B0 Fine-tuned Model Evaluation}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[20 <./figures/MobileNetV2.png> <./figures/MobileNetV2_.png>]
+<figures/EfficientNet-B0.png, id=228, 570.933pt x 354.123pt>
 File: figures/EfficientNet-B0.png Graphic file (type png)
 <use figures/EfficientNet-B0.png>
-Package pdftex.def Info: figures/EfficientNet-B0.png  used on input line 1203.
+Package pdftex.def Info: figures/EfficientNet-B0.png  used on input line 1252.
 (pdftex.def)             Requested size: 385.02547pt x 238.82277pt.
-<figures/EfficientNet-B0_.png, id=539, 570.933pt x 354.123pt>
+<figures/EfficientNet-B0_.png, id=229, 570.933pt x 354.123pt>
 File: figures/EfficientNet-B0_.png Graphic file (type png)
 <use figures/EfficientNet-B0_.png>
-Package pdftex.def Info: figures/EfficientNet-B0_.png  used on input line 1208.
+Package pdftex.def Info: figures/EfficientNet-B0_.png  used on input line 1257.
 (pdftex.def)             Requested size: 385.02547pt x 238.82277pt.
- [21 <./figures/EfficientNet-B0.png>] [22 <./figures/EfficientNet-B0_.png>]
-<figures/accuracy_vs_model.png, id=556, 641.0349pt x 426.393pt>
+ [21 <./figures/EfficientNet-B0.png>]
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:1260: Missing $ inserted.
+<inserted text> 
+                $
+l.1260     {fig:figures/EfficientNet-B0_
+                                        }
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:1260: Missing { inserted.
+<to be read again> 
+                   }
+l.1260     {fig:figures/EfficientNet-B0_}
+                                         
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex:1264: Missing $ inserted.
+<inserted text> 
+                $
+l.1264 State-of-the-Art Models}
+                               
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (15.08571pt too wide) in paragraph at lines 1257--1264
+[]\OT1/cmr/m/n/12 <<<<<< HEAD fig:figures/EfficientNet-B0- ======= fig:figures/EfficientNet-B0$[] \OML/cmm/m/it/12 >>>>>>>
+ []
+
+
+LaTeX Warning: Reference `tab:complete-comparison' on page 22 undefined on input line 1267.
+
+[22 <./figures/EfficientNet-B0_.png>]
+Overfull \hbox (11.0196pt too wide) detected at line 1391
+\OML/cmm/m/it/12 <<<<<<< HEAD\OT1/cmr/m/n/12 62\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 64% ======= 62\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 82% \OML/cmm/m/it/12 >>>>>>> refs=remotes=origin=main
+ []
+
+<figures/accuracy_vs_model.png, id=247, 641.0349pt x 426.393pt>
 File: figures/accuracy_vs_model.png Graphic file (type png)
 <use figures/accuracy_vs_model.png>
-Package pdftex.def Info: figures/accuracy_vs_model.png  used on input line 1349.
+Package pdftex.def Info: figures/accuracy_vs_model.png  used on input line 1406.
 (pdftex.def)             Requested size: 452.9679pt x 301.29675pt.
- [23 <./figures/accuracy_vs_model.png>]
-Overfull \hbox (16.49669pt too wide) in paragraph at lines 1422--1424
+[23 <./figures/accuracy_vs_model.png>]
+Overfull \hbox (76.55782pt too wide) detected at line 1441
+\OML/cmm/m/it/12 <<<<<<< HEAD\OT1/cmr/m/n/12 69\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 69[] ======= 77\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 48[] \OML/cmm/m/it/12 >>>>>>> refs=remotes=origin=main
+ []
+
+
+Overfull \hbox (76.55782pt too wide) detected at line 1451
+\OML/cmm/m/it/12 <<<<<<< HEAD\OT1/cmr/m/n/12 77\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 48[] ======= 69\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 69[] \OML/cmm/m/it/12 >>>>>>> refs=remotes=origin=main
+ []
+
+[24]
+Overfull \hbox (16.49669pt too wide) in paragraph at lines 1487--1489
 []\OT1/cmr/m/n/12 For an ap-pli-ca-tion where max-i-mum clas-si-fi-ca-tion ac-cu-racy is the main ob-jec-tive, EfficientNet-
  []
 
-[24] [25]
-Underfull \hbox (badness 10000) in paragraph at lines 1559--1559
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 1624--1624
 []|\OT1/cmr/bx/n/12 Recommended
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1559--1559
+Underfull \hbox (badness 10000) in paragraph at lines 1624--1624
 []|\OT1/cmr/m/n/12 Maximum clas-si-fi-ca-
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 1559--1559
+Underfull \hbox (badness 4505) in paragraph at lines 1624--1624
 []|\OT1/cmr/m/n/12 High ac-cu-racy with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1559--1559
+Underfull \hbox (badness 10000) in paragraph at lines 1624--1624
 []|\OT1/cmr/m/n/12 Extremely lim-ited
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 1559--1559
+Underfull \hbox (badness 4505) in paragraph at lines 1624--1624
 []|\OT1/cmr/m/n/12 High ac-cu-racy with
  []
 
 
-Underfull \hbox (badness 6188) in paragraph at lines 1559--1559
+Underfull \hbox (badness 6188) in paragraph at lines 1624--1624
 []|\OT1/cmr/m/n/12 Strict sub-100k pa-
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 1559--1559
+Underfull \hbox (badness 3219) in paragraph at lines 1624--1624
 []|\OT1/cmr/m/n/12 Successfully sat-is-fies the as-sign-ment
  []
 
@@ -906,23 +1331,39 @@ L3 programming layer <2025-12-24>
  ***********
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `EN3150_Two_Digit_MNIST_Report.out' has not changed.
-(rerunfilecheck)             Checksum: 76D173F8414F77C1CAFA754040394768;13745.
- ) 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `EN3150_Two_Digit_MNIST_Report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `EN3150_Two_Digit_MNIST_Report.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  76D173F8414F77C1CAFA754040394768;13745.
+ )
+(\end occurred inside a group at level 4)
+
+### simple group (level 4) entered at line 1260 ({)
+### simple group (level 3) entered at line 1213 ({)
+### simple group (level 2) entered at line 1039 ({)
+### simple group (level 1) entered at line 980 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 24722 strings out of 467871
- 451208 string characters out of 5428443
- 855363 words of memory out of 5000000
- 53025 multiletter control sequences out of 15000+600000
+ 24626 strings out of 467871
+ 449362 string characters out of 5428443
+ 847178 words of memory out of 5000000
+ 52939 multiletter control sequences out of 15000+600000
  636557 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,108p,561b,1062s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,13n,108p,510b,1455s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\dilha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on EN3150_Two_Digit_MNIST_Report.pdf (34 pages, 3352817 bytes).
+Output written on EN3150_Two_Digit_MNIST_Report.pdf (32 pages, 3231001 bytes).
 PDF statistics:
- 708 PDF objects out of 1000 (max. 8388607)
- 180 named destinations out of 1000 (max. 500000)
- 640 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 414 PDF objects out of 1000 (max. 8388607)
+ 176 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 

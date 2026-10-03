@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1791003393.36577 "c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex" "EN3150_Two_Digit_MNIST_Report.pdf" "EN3150_Two_Digit_MNIST_Report" 1791003396.32378 0
+["pdflatex"] 1791005107.38089 "c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex" "EN3150_Two_Digit_MNIST_Report.pdf" "EN3150_Two_Digit_MNIST_Report" 1791005110.54387 2
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/tcrm1200.tfm" 993062508 1444 95ffe0f19b974d50849790c8225c7ef7 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -171,11 +171,11 @@
   "C:/Users/dilha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1783922575 81107 70b8516c68c2e617189c5e44bfd16b96 ""
   "C:/Users/dilha/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1786129890 14064 68732c85dbc2bb526c6c799a97b2a4b8 ""
   "C:/Users/dilha/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1784780228 13323420 fb17fa8d7191365b879fcccd6d9ce16e ""
-  "EN3150_Two_Digit_MNIST_Report.aux" 1791003395 19397 eb09fdf009dc634cd39f45973e424b6d "pdflatex"
-  "EN3150_Two_Digit_MNIST_Report.out" 1791003395 13745 76d173f8414f77c1cafa754040394768 "pdflatex"
-  "EN3150_Two_Digit_MNIST_Report.tex" 1791003389 45436 ca2b893f015c46849938a3e68541e1ba ""
-  "EN3150_Two_Digit_MNIST_Report.toc" 1791003395 6295 11c79e980c0646143d4f8226b57453d9 "pdflatex"
-  "c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex" 1791003389 45436 ca2b893f015c46849938a3e68541e1ba ""
+  "EN3150_Two_Digit_MNIST_Report.aux" 1791005110 18469 a83dd3b3cf0233c656c727d1d2db2940 "pdflatex"
+  "EN3150_Two_Digit_MNIST_Report.out" 1791005110 13745 76d173f8414f77c1cafa754040394768 "pdflatex"
+  "EN3150_Two_Digit_MNIST_Report.tex" 1791005102 48711 94a45513e6583aaa8235411d607d1923 ""
+  "EN3150_Two_Digit_MNIST_Report.toc" 1791005110 6295 568949585fddb284380bfdeee3185bc9 "pdflatex"
+  "c:/Users/dilha/Desktop/cnn group/latex/EN3150_Two_Digit_MNIST_Report.tex" 1791005102 48711 94a45513e6583aaa8235411d607d1923 ""
   "figures/EfficientNet-B0.png" 1790271062 29807 58a83c737b6cc438f0a9a60c6af67374 ""
   "figures/EfficientNet-B0_.png" 1790271074 31963 be83391efc592f80be85dec1d253bc7e ""
   "figures/MobileNetV2.png" 1790271020 30790 8fba02b2cce47f8f570fb0acdaca750a ""
