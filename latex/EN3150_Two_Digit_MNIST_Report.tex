@@ -181,7 +181,7 @@
                 \parbox[c][5cm][c]{0.80\textwidth}{
                     \centering
                     Figure file not found:\\
-                    \texttt{#1}
+                    \texttt{\detokenize{#1}}
                 }
             }
         }
@@ -227,10 +227,10 @@ Faculty of Engineering
 % UNIVERSITY LOGO
 % ------------------------------------------------------------
 
-\IfFileExists{uom_logo.png}{
+\IfFileExists{figures/uom_logo.png}{
     \includegraphics[
         width=0.30\textwidth
-    ]{uom_logo.png}
+    ]{figures/uom_logo.png}
 }{
     \fbox{
         \parbox[c][4cm][c]{0.30\textwidth}{
@@ -272,7 +272,7 @@ Edge Image Classification
 % ------------------------------------------------------------
 
 {\Large\bfseries
-Group Members
+Group Name - Neural Nexus
 \par}
 
 \vspace{0.4cm}
@@ -423,14 +423,14 @@ validation, and testing subsets.
 \section{Sample Images}
 % ------------------------------------------------------------
 
-Figure~\ref{fig:dataset_samples} shows examples of handwritten
+Figure~\ref{fig:dataset-samples} shows examples of handwritten
 two-digit images from the dataset.
 
 \insertfigure
-    {dataset_samples.png}
+    {figures/dataset_samples.png}
     {0.90}
     {Sample images from the MNIST 2-Digit Dataset.}
-    {fig:dataset_samples}
+    {fig:dataset-samples}
 
 % ------------------------------------------------------------
 \section{Dataset Summary}
@@ -439,7 +439,7 @@ two-digit images from the dataset.
 \begin{table}[H]
 \centering
 \caption{Summary of the MNIST 2-Digit Dataset}
-\label{tab:dataset_summary}
+\label{tab:dataset-summary}
 
 \begin{tabular}{ll}
 \toprule
@@ -542,7 +542,7 @@ The final layer produces 100 class scores.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{Model A.png}
+    \includegraphics[width=1\linewidth]{figures/Model A.png}
     \caption{Model A Architecture}
     \label{fig:placeholder}
 \end{figure}
@@ -554,7 +554,7 @@ The final layer produces 100 class scores.
 \begin{table}[H]
 \centering
 \caption{Model A Architecture}
-\label{tab:model_a_arch}
+\label{tab:model-a-arch}
 
 \begin{tabular}{lll}
 \toprule
@@ -643,12 +643,12 @@ The training process monitored:
 
 Model A achieved strong performance during training.
 
-The final test results are shown in Table~\ref{tab:model_a_results}.
+The final test results are shown in Table~\ref{tab:model-a-results}.
 
 \begin{table}[H]
 \centering
 \caption{Model A Test Performance}
-\label{tab:model_a_results}
+\label{tab:model-a-results}
 
 \begin{tabular}{lr}
 \toprule
@@ -656,29 +656,29 @@ The final test results are shown in Table~\ref{tab:model_a_results}.
 \midrule
 Trainable Parameters & 560,612 \\
 Model Size & 2.1431 MB \\
-Average Time/Epoch & 52.27 s \\
-Test Accuracy & 93.85\% \\
-Macro Precision & 93.88\% \\
-Macro Recall & 93.75\% \\
+Average Time/Epoch & 77.48 s \\
+Test Accuracy & 94.06\% \\
+Macro Precision & 93.91\% \\
+Macro Recall & 94.94\% \\
 \bottomrule
 \end{tabular}
 
 \end{table}
 
 % ------------------------------------------------------------
-\section{Model A Learning Curves}
+\section{Model B Learning Curves}
 % ------------------------------------------------------------
 
 \insertfigure
-    {model_a_curves.png}
+    {figures/model_a_curves.png}
     {0.85}
     {Losses of Training and validation curves for Model A.}
-    {fig:model_a_curves}
+    {fig:figures/model-a-curves}
 \insertfigure
-    {model_a_curves_.png}
+    {figures/model_a_curves_.png}
     {0.85}
     {Accuracy Training and validation curves for Model A.}
-    {fig:model_a_curves_}
+    {fig:figures/model-a-curves-}
 
 % ------------------------------------------------------------
 \newpage
@@ -718,7 +718,7 @@ The optimizer comparison produced the following results.
 \begin{table}[H]
 \centering
 \caption{Five-Epoch Optimizer Comparison}
-\label{tab:optimizer_comparison}
+\label{tab:optimizer-comparison}
 
 \begin{tabular}{lcc}
 \toprule
@@ -726,23 +726,21 @@ The optimizer comparison produced the following results.
 \textbf{Best Validation Accuracy} &
 \textbf{Final Validation Accuracy} \\
 \midrule
-SGD & 5.82\% & 5.82\% \\
-SGD + Momentum &  21.36\% & 13.39\% \\
-Adam & 8.41\% & 3.28\% \\
+SGD & 4.89\% & 4.90\% \\
+SGD + Momentum &  14.86\% & 5.62\% \\
+Adam & 10.15\% & 7.92\% \\
 \bottomrule
 \end{tabular}
 
 \end{table}
 
 The SGD with Momentum configuration reached a peak validation
-accuracy of approximately 21.36\% during the short experiment.
-
+accuracy of approximately 14.87\% during the short experiment.
 However, its final validation accuracy dropped to approximately
-7.97\%.
+5.62\% by epoch 5.
 
-Adam reached higher training accuracy during the five-epoch
-experiment, reaching approximately 8.41\% training accuracy by
-epoch 5.
+Adam reached 48.17\% training accuracy by epoch 5, while SGD and
+SGD with Momentum reached 4.77\% and 25.09\%, respectively.
 
 % ------------------------------------------------------------
 \section{Impact of Momentum Parameter}
@@ -794,7 +792,6 @@ The main observations are:
     \item Five epochs are insufficient for a definitive optimizer
     benchmark.
 \end{itemize}
-
 % ------------------------------------------------------------
 \section{Model Evaluation on Test Dataset}
 % ------------------------------------------------------------
@@ -818,13 +815,13 @@ The following metrics were calculated:
 Model A achieved:
 
 \[
-Accuracy=93.85\%
+Accuracy=94.06\%
 \]
 \[
-Precision=93.88\%
+Precision=93.91\%
 \]
 \[
-Recall=93.75\%
+Recall=94.94\%
 \]
 
 These results indicate strong classification performance across
@@ -835,10 +832,10 @@ the 100 classes.
 % ------------------------------------------------------------
 
 \insertfigure
-    {model_a_confusion_matrix.png}
+    {figures/model_a_confusion_matrix.png}
     {0.80}
     {Confusion matrix of Model A on the test dataset.}
-    {fig:model_a_confusion}
+    {fig:figures/model-a-confusion}
 
 % ------------------------------------------------------------
 \subsection{Analysis and Insights}
@@ -913,7 +910,7 @@ The architecture consists of:
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{Model B.png}
+    \includegraphics[width=1\linewidth]{figures/Model B.png}
     \caption{Lightweight Model}
     \label{fig:placeholder}
 \end{figure}
@@ -940,20 +937,20 @@ Therefore:
 The model successfully satisfies the required resource constraint.
 
 % ------------------------------------------------------------
-\section{Model A Learning Curves}
+\section{Model B Learning Curves}
 % ------------------------------------------------------------
 
 \insertfigure
-    {model_b_curves.png}
+    {figures/model_b_curves.png}
     {0.85}
     {Losses of Training and validation curves for Model B.}
-    {fig:model_b_curves}
+    {fig:figures/model-b-curves}
 \insertfigure
-    {model_b_curves_.png}
+    {figures/model_b_curves_.png}
     {0.85}
     {Accuracy Training and validation curves for Model B.}
-    {fig:model_b_curves_}
-    
+    {fig:figures/model-b-curves-}
+\newpage
 % ------------------------------------------------------------
 \section{Model B Evaluation}
 % ------------------------------------------------------------
@@ -963,7 +960,7 @@ The final Model B results are shown below.
 \begin{table}[H]
 \centering
 \caption{Model B Test Performance}
-\label{tab:model_b_results}
+\label{tab:model-b-results}
 
 \begin{tabular}{lr}
 \toprule
@@ -971,10 +968,10 @@ The final Model B results are shown below.
 \midrule
 Trainable Parameters & 9,741 \\
 Model Size & 0.0466 MB \\
-Average Time/Epoch & 50.69 s \\
-Test Accuracy & 49.23\% \\
-Macro Precision & 60.06\% \\
-Macro Recall & 49.55\% \\
+Average Time/Epoch & 69.69 s \\
+Test Accuracy & 62.64\% \\
+Macro Precision & 51.69\% \\
+Macro Recall & 47.87\% \\
 \bottomrule
 \end{tabular}
 
@@ -984,11 +981,12 @@ Macro Recall & 49.55\% \\
 \section{Model B Training Behaviour}
 % ------------------------------------------------------------
 
-The training accuracy increased to approximately 77.49\% by
+The training accuracy increased to approximately 65.93\% by
 epoch 20.
 
 However, the final validation accuracy decreased to approximately
-23.84\% at epoch 20.
+9.18\% at epoch 20, showing substantial instability in validation
+performance during the lightweight-model training.
 
 This indicates instability near the end of training and suggests
 that further regularization or learning-rate tuning may improve
@@ -999,10 +997,10 @@ generalization.
 % ------------------------------------------------------------
 
 \insertfigure
-    {model_b_confusion_matrix.png}
+    {figures/model_b_confusion_matrix.png}
     {0.80}
     {Confusion matrix of Model B on the test dataset.}
-    {fig:model_b_confusion}
+    {fig:figures/model-b-confusion}
 
 % ------------------------------------------------------------
 \section{Model B Analysis}
@@ -1019,7 +1017,7 @@ parameters than Model A.
 However, this large reduction in model complexity resulted in a
 substantial reduction in classification accuracy.
 
-Model B achieved 64.97\% accuracy compared with 94.35\% for
+Model B achieved 62.64\% accuracy compared with 94.06\% for
 Model A.
 
 This demonstrates the trade-off between resource usage and
@@ -1139,7 +1137,7 @@ The final MobileNetV2 results are:
 \begin{table}[H]
 \centering
 \caption{MobileNetV2 Performance}
-\label{tab:mobilenet_results}
+\label{tab:mobilenet-results}
 
 \begin{tabular}{lr}
 \toprule
@@ -1147,10 +1145,10 @@ The final MobileNetV2 results are:
 \midrule
 Trainable Parameters & 2,351,972 \\
 Model Size & 9.2100 MB \\
-Average Time/Epoch & 99.50 s \\
-Test Accuracy & 96.79\% \\
-Macro Precision & 96.63\% \\
-Macro Recall & 96.88\% \\
+Average Time/Epoch & 101.95 s \\
+Test Accuracy & 97.14\% \\
+Macro Precision & 97.04\% \\
+Macro Recall & 97.56\% \\
 \bottomrule
 \end{tabular}
 
@@ -1160,15 +1158,15 @@ MobileNetV2 achieved higher accuracy than both custom CNN
 architectures.
 
 \insertfigure
-    {MobileNetV2.png}
+    {figures/MobileNetV2.png}
     {0.85}
     {Losses of Training and validation curves for MobileNetV2.}
-    {fig:MobileNetV2}
+    {fig:figures/MobileNetV2}
 \insertfigure
-    {MobileNetV2_.png}
+    {figures/MobileNetV2_.png}
     {0.85}
     {Accuracy of Training and validation curves for MobileNetV2.}
-    {fig:MobileNetV2_}
+    {fig:figures/MobileNetV2-}
 % ------------------------------------------------------------
 \subsection{EfficientNet-B0 Fine-tuned Model Evaluation}
 % ------------------------------------------------------------
@@ -1178,7 +1176,7 @@ The final EfficientNet-B0 results are:
 \begin{table}[H]
 \centering
 \caption{EfficientNet-B0 Performance}
-\label{tab:efficientnet_results}
+\label{tab:efficientnet-results}
 
 \begin{tabular}{lr}
 \toprule
@@ -1186,10 +1184,10 @@ The final EfficientNet-B0 results are:
 \midrule
 Trainable Parameters & 4,135,648 \\
 Model Size & 16.0674 MB \\
-Average Time/Epoch & 89.48 s \\
-Test Accuracy & 97.47\% \\
-Macro Precision & 97.31\% \\
-Macro Recall & 97.61\% \\
+Average Time/Epoch & 118.78 s \\
+Test Accuracy & 97.82\% \\
+Macro Precision & 97.60\% \\
+Macro Recall & 98.10\% \\
 \bottomrule
 \end{tabular}
 
@@ -1199,26 +1197,26 @@ EfficientNet-B0 achieved the highest test accuracy among the
 four evaluated models.
 
 \insertfigure
-    {EfficientNet-B0.png}
+    {figures/EfficientNet-B0.png}
     {0.85}
     {Losses of Training and validation curves forEfficientNet-B0.}
-    {fig:EfficientNet-B0}
+    {fig:figures/EfficientNet-B0}
 \insertfigure
-    {EfficientNet-B0_.png}
+    {figures/EfficientNet-B0_.png}
     {0.85}
     {Accuracy of Training and validation curves for EfficientNet-B0.}
-    {fig:EfficientNet-B0_}
+    {fig:figures/EfficientNet-B0-}
 % ------------------------------------------------------------
 \section{Performance Comparison: Custom CNN vs. Fine-tuned
 State-of-the-Art Models}
 % ------------------------------------------------------------
 
-The complete comparison is shown in Table~\ref{tab:complete_comparison}.
+The complete comparison is shown in Table~\ref{tab:complete-comparison}.
 
 \begin{table}[H]
 \centering
 \caption{Comprehensive Performance Comparison}
-\label{tab:complete_comparison}
+\label{tab:complete-comparison}
 
 \resizebox{\textwidth}{!}{
 \begin{tabular}{lrrrrrr}
@@ -1245,13 +1243,13 @@ Model A
 &
 2.1431
 &
-46.62 s
+77.48 s
 &
-94.35\%
+94.06\%
 &
-94.16\%
+93.91\%
 &
-94.35\%
+94.94\%
 \\
 
 Model B
@@ -1260,13 +1258,13 @@ Model B
 &
 0.0466
 &
-50.69 s
+69.69 s
 &
-64.97\%
+62.64\%
 &
-73.53\%
+51.69\%
 &
-65.87\%
+47.87\%
 \\
 
 MobileNetV2
@@ -1275,13 +1273,13 @@ MobileNetV2
 &
 9.2100
 &
-99.50 s
+101.95 s
 &
-96.79\%
+97.14\%
 &
-96.63\%
+97.04\%
 &
-96.88\%
+97.56\%
 \\
 
 EfficientNet-B0
@@ -1290,13 +1288,13 @@ EfficientNet-B0
 &
 16.0674
 &
-89.48 s
+118.78 s
 &
-97.47\%
+97.82\%
 &
-97.31\%
+97.60\%
 &
-97.61\%
+98.10\%
 \\
 
 \bottomrule
@@ -1314,25 +1312,25 @@ EfficientNet-B0
 EfficientNet-B0 achieved the highest test accuracy:
 
 \[
-97.47\%
+97.82\%
 \]
 
 MobileNetV2 achieved:
 
 \[
-96.79\%
+97.14\%
 \]
 
 Model A achieved:
 
 \[
-94.35\%
+94.06\%
 \]
 
 Model B achieved:
 
 \[
-64.97\%
+62.64\%
 \]
 
 Therefore, according to accuracy:
@@ -1348,7 +1346,7 @@ Therefore, according to accuracy:
 \]
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{accuracy_vs_model.png}
+    \includegraphics[width=1\linewidth]{figures/accuracy_vs_model.png}
     \caption{Accuracy vs Model}
     \label{fig:placeholder}
 \end{figure}
@@ -1374,21 +1372,21 @@ EfficientNet-B0 has the largest model size:
 \subsection{Computational Cost}
 % ------------------------------------------------------------
 
-Model A has the shortest average training time per epoch among
+Model B has the shortest average training time per epoch among
 the four models:
 
 \[
-46.62\text{ seconds}
+69.69\text{ seconds}
 \]
 
-Model B takes:
+Model A takes:
 
 \[
-50.69\text{ seconds}
+77.48\text{ seconds}
 \]
 
-Despite having substantially fewer parameters, Model B is not
-faster than Model A.
+Despite having substantially fewer parameters, Model B is faster
+per epoch than Model A in this experiment.
 
 This demonstrates that parameter count alone does not determine
 actual execution time.
@@ -1410,8 +1408,8 @@ The main findings are:
     footprint than EfficientNet-B0.
     \item Parameter reduction can result in substantial accuracy
     degradation.
-    \item A smaller parameter count does not necessarily result
-    in faster training.
+    \item Runtime depends on both parameter count and architectural
+    implementation.
 \end{enumerate}
 
 % ------------------------------------------------------------
@@ -1510,7 +1508,7 @@ Custom Model vs. Pre-trained Model}
 \begin{table}[H]
 \centering
 \caption{Model Selection Guidelines}
-\label{tab:model_selection}
+\label{tab:model-selection}
 
 \begin{tabularx}{\textwidth}{p{4cm}p{3.5cm}X}
 \toprule
@@ -1578,12 +1576,12 @@ design space, while EfficientNet-B0 provides the highest accuracy.
 
 Model A provides a practical compromise.
 
-It achieved 94.35\% accuracy with only 2.1431 MB of model storage.
+It achieved 94.06\% accuracy with only 2.1431 MB of model storage.
 
 \textbf{Parameter Count vs. Runtime}
 
 Model B contains dramatically fewer parameters than Model A,
-but its average training time is slightly higher.
+and its average training time is also lower.
 
 Therefore, parameter count should not be used as the only measure
 of computational efficiency.
@@ -1627,16 +1625,16 @@ Four architectures were evaluated:
     \item EfficientNet-B0.
 \end{enumerate}
 
-Model A achieved 94.35\% test accuracy using 560,612 trainable
+Model A achieved 94.06\% test accuracy using 560,612 trainable
 parameters.
 
 Model B successfully satisfied the assignment requirement of
 fewer than 100,000 trainable parameters, containing only 9,741
-parameters. However, its test accuracy was 64.97\%.
+parameters. However, its test accuracy was 62.64\%.
 
-MobileNetV2 achieved 96.79\% test accuracy.
+MobileNetV2 achieved 97.14\% test accuracy.
 
-EfficientNet-B0 achieved the highest accuracy at 97.47\%.
+EfficientNet-B0 achieved the highest accuracy at 97.82\%.
 
 The results demonstrate an important trade-off between
 classification performance and resource requirements.
@@ -1736,7 +1734,7 @@ files are available in the following GitHub repository:
 
 \begin{center}
 
-\url{https://github.com/YOUR-USERNAME/YOUR-REPOSITORY}
+\url{https://github.com/sachi1645/EN3150-Two-Digit-MNIST-Classification}
 
 \end{center}
 
@@ -1749,7 +1747,7 @@ files are available in the following GitHub repository:
 \begin{table}[H]
 \centering
 \caption{Final Summary of All Evaluated Models}
-\label{tab:final_summary}
+\label{tab:final-summary}
 
 \begin{tabular}{lrrrr}
 \toprule
@@ -1771,9 +1769,9 @@ Model A
 &
 2.1431 MB
 &
-46.62 s
+77.48 s
 &
-94.35\%
+94.06\%
 \\
 
 Model B
@@ -1782,9 +1780,9 @@ Model B
 &
 0.0466 MB
 &
-50.69 s
+69.69 s
 &
-64.97\%
+62.64\%
 \\
 
 MobileNetV2
@@ -1793,9 +1791,9 @@ MobileNetV2
 &
 9.2100 MB
 &
-99.50 s
+101.95 s
 &
-96.79\%
+97.14\%
 \\
 
 EfficientNet-B0
@@ -1804,9 +1802,9 @@ EfficientNet-B0
 &
 16.0674 MB
 &
-89.48 s
+118.78 s
 &
-97.47\%
+97.82\%
 \\
 
 \bottomrule
